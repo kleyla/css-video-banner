@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background: #111;
+}
+.container {
+  position: absolute;
+  top: 75px;
+  left: 75px;
+  right: 75px;
+  bottom: 75px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.container .textBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #fff;
+  font-size: 8em;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.container .textBox span {
+  font-size: 1.2em;
+}
+.container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
